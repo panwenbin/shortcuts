@@ -1,0 +1,15 @@
+{
+  "name": "快捷键查询",
+  "short_name": "快捷键查询",
+  "start_url": "/shortcuts/",
+  "scope": "/shortcuts/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/shortcuts/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
