@@ -1,2 +1,616 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>快捷键查询</title><link>https://www.panwenbin.com/shortcuts/</link><description>Recent content on 快捷键查询</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 20 Sep 2024 10:30:00 +0800</lastBuildDate><atom:link href="https://www.panwenbin.com/shortcuts/index.xml" rel="self" type="application/rss+xml"/><item><title>Mac系统快捷键</title><link>https://www.panwenbin.com/shortcuts/mac/</link><pubDate>Fri, 20 Sep 2024 10:30:00 +0800</pubDate><guid>https://www.panwenbin.com/shortcuts/mac/</guid><description> Mac系统快捷键 # 快捷键 操作 control + ⌘ + F 全屏 ⌘ + Q 退出程序 ⌘ + W 关闭窗口 ⌘ + M 最小化程序 ⌘ + H 隐藏当前窗口 ⌘ + ⌥ + H 隐藏其他所有窗口 ⌘ + + 放大页面 ⌘ + - 缩小页面 ⌘ + 0 恢复默认大小</description></item><item><title>LazyVim快捷键</title><link>https://www.panwenbin.com/shortcuts/lazyvim/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0800</pubDate><guid>https://www.panwenbin.com/shortcuts/lazyvim/</guid><description>⌨️ 按键映射 # LazyVim 使用 which-key.nvim 帮助你记住你的按键映射。 按任意键，如 &amp;lt;space&amp;gt;，你将看到一个包含所有以 &amp;lt;space&amp;gt; 开始的按键映射的弹窗。
-默认的 &amp;lt;leader&amp;gt; 键是 &amp;lt;space&amp;gt; 默认的 &amp;lt;localleader&amp;gt; 键是 \ 模式 描述 n Normal Mode v Visual Mode s Select Mode i Insert Mode c Command Mode x Ex Mode t Terminal Mode 通用的 # 键 描述 模式 &amp;lt;C-h&amp;gt; 切换到左边窗口 n, t &amp;lt;C-j&amp;gt; 切换到下面窗口 n, t &amp;lt;C-k&amp;gt; 切换到上面窗口 n, t &amp;lt;C-l&amp;gt; 切换到右边窗口 n, t &amp;lt;C-Up&amp;gt; 增加窗口高度 n &amp;lt;C-Down&amp;gt; 降低窗口高度 n &amp;lt;C-Left&amp;gt; 降低窗口宽度 n &amp;lt;C-Right&amp;gt; 增加窗口宽度 n &amp;lt;A-j&amp;gt; 下移 n, i, v &amp;lt;A-k&amp;gt; 上移 n, i, v &amp;lt;S-h&amp;gt; 前一个Buffer n &amp;lt;S-l&amp;gt; 后一个Buffer n [b 前一个Buffer n ]b 后一个Buffer n &amp;lt;leader&amp;gt;bb 切换到其他Buffer n &amp;lt;leader&amp;gt;` 切换到其他Buffer n &amp;lt;esc&amp;gt; 退出并清除搜索高亮 i, n &amp;lt;leader&amp;gt;ur 重绘/清除搜索高亮 / Diff Update n n 后一个搜索结果 n, x, o N 前一个搜索结果 n, x, o &amp;lt;C-s&amp;gt; 保存文件 i, x, n, s &amp;lt;leader&amp;gt;K Keywordprg n &amp;lt;leader&amp;gt;l 打开Lazy面板 n &amp;lt;leader&amp;gt;fn 新建文件 n &amp;lt;leader&amp;gt;xl Location列表 n &amp;lt;leader&amp;gt;xq Quickfix列表 n [q 前一个Quickfix n ]q 后一个Quickfix n &amp;lt;leader&amp;gt;cf 格式化 n, v &amp;lt;leader&amp;gt;cd Line Diagnostics n ]d 后一个Diagnostic n [d 前一个Diagnostic n ]e 后一个Error n [e 前一个Error n ]w 后一个Warning n [w 前一个Warning n &amp;lt;leader&amp;gt;uf 开关自动格式化 (全局) n &amp;lt;leader&amp;gt;uF 开关自动格式化 (Buffer) n &amp;lt;leader&amp;gt;us 开关拼写 n &amp;lt;leader&amp;gt;uw 开关折行 n &amp;lt;leader&amp;gt;uL 开关相对行号 n &amp;lt;leader&amp;gt;ul 开关行号 n &amp;lt;leader&amp;gt;ud 开关Diagnostics n &amp;lt;leader&amp;gt;uc 开关Conceal n &amp;lt;leader&amp;gt;uh 开关Inlay Hints n &amp;lt;leader&amp;gt;uT 开关Treesitter Highlight n &amp;lt;leader&amp;gt;ub 开关Background n &amp;lt;leader&amp;gt;gg Lazygit(根目录) n &amp;lt;leader&amp;gt;gG Lazygit(当前目录) n &amp;lt;leader&amp;gt;gb Git Blame Line n &amp;lt;leader&amp;gt;gf Lazygit当前文件历史 n &amp;lt;leader&amp;gt;qq 全部退出 n &amp;lt;leader&amp;gt;ui Inspect Pos n &amp;lt;leader&amp;gt;L LazyVim Changelog n &amp;lt;leader&amp;gt;ft 终端(根目录) n &amp;lt;leader&amp;gt;fT 终端(当前目录) n &amp;lt;c-/&amp;gt; 终端(根目录) n &amp;lt;c-_&amp;gt; which_key_ignore n, t &amp;lt;esc&amp;gt;&amp;lt;esc&amp;gt; 进入普通模式 t &amp;lt;C-/&amp;gt; 隐藏终端 t &amp;lt;leader&amp;gt;ww 切到另一个窗口 n &amp;lt;leader&amp;gt;wd 删除窗口 n &amp;lt;leader&amp;gt;w- 向下分割窗口 n &amp;lt;leader&amp;gt;w| 向右分割窗口 n &amp;lt;leader&amp;gt;- 向下分割窗口 n &amp;lt;leader&amp;gt;| 向右分割窗口 n &amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;l 最后一个Tab n &amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;f 第一个Tab n &amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;&amp;lt;tab&amp;gt; 新建Tab n &amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;] 后一个Tab n &amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;d 关闭Tab n &amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;[ 前一个Tab n LSP # 键 描述 模式 &amp;lt;leader&amp;gt;cl Lsp信息 n gd 转到定义 n gr 查找引用 n gD 转到声明 n gI 转到实现 n gy 转到类型定义 n K 悬停 n gK 函数签名帮助 n &amp;lt;c-k&amp;gt; 函数签名帮助 i &amp;lt;leader&amp;gt;ca 代码Action n, v &amp;lt;leader&amp;gt;cc 执行Codelens n, v &amp;lt;leader&amp;gt;cC 刷新并显示Codelens n &amp;lt;leader&amp;gt;cA Source Action n &amp;lt;leader&amp;gt;cr 重命名 n bufferline.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>快捷键查询</title><link>https://www.panwenbin.com/shortcuts/</link><description>Recent content on 快捷键查询</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://www.panwenbin.com/shortcuts/index.xml" rel="self" type="application/rss+xml"/><item><title>MPlayer快捷键</title><link>https://www.panwenbin.com/shortcuts/mplayer/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0800</pubDate><guid>https://www.panwenbin.com/shortcuts/mplayer/</guid><description>&lt;h1 id="mplayer快捷键">
+ MPlayer快捷键
+ &lt;a class="anchor" href="#mplayer%e5%bf%ab%e6%8d%b7%e9%94%ae">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="基本操作">
+ 基本操作
+ &lt;a class="anchor" href="#%e5%9f%ba%e6%9c%ac%e6%93%8d%e4%bd%9c">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>按键&lt;/th>
+ &lt;th>功能&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>空格键&lt;/td>
+ &lt;td>暂停/播放&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>左键&lt;/td>
+ &lt;td>快退10秒&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>右键&lt;/td>
+ &lt;td>快进10秒&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>上键&lt;/td>
+ &lt;td>音量增大&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>下键&lt;/td>
+ &lt;td>音量减小&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>M键&lt;/td>
+ &lt;td>静音&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>F键&lt;/td>
+ &lt;td>全屏切换&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Q键&lt;/td>
+ &lt;td>退出播放&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Mac系统快捷键</title><link>https://www.panwenbin.com/shortcuts/mac/</link><pubDate>Fri, 20 Sep 2024 10:30:00 +0800</pubDate><guid>https://www.panwenbin.com/shortcuts/mac/</guid><description>&lt;h1 id="mac系统快捷键">
+ Mac系统快捷键
+ &lt;a class="anchor" href="#mac%e7%b3%bb%e7%bb%9f%e5%bf%ab%e6%8d%b7%e9%94%ae">#&lt;/a>
+&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>快捷键&lt;/th>
+ &lt;th>操作&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>control + ⌘ + F&lt;/td>
+ &lt;td>全屏&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + Q&lt;/td>
+ &lt;td>退出程序&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + W&lt;/td>
+ &lt;td>关闭窗口&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + M&lt;/td>
+ &lt;td>最小化程序&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + H&lt;/td>
+ &lt;td>隐藏当前窗口&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + ⌥ + H&lt;/td>
+ &lt;td>隐藏其他所有窗口&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + +&lt;/td>
+ &lt;td>放大页面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + -&lt;/td>
+ &lt;td>缩小页面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + 0&lt;/td>
+ &lt;td>恢复默认大小&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>LazyVim快捷键</title><link>https://www.panwenbin.com/shortcuts/lazyvim/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0800</pubDate><guid>https://www.panwenbin.com/shortcuts/lazyvim/</guid><description>&lt;h1 id="-按键映射">
+ ⌨️ 按键映射
+ &lt;a class="anchor" href="#-%e6%8c%89%e9%94%ae%e6%98%a0%e5%b0%84">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;strong>LazyVim&lt;/strong> 使用 
+ &lt;a href="https://github.com/folke/which-key.nvim">which-key.nvim&lt;/a> 帮助你记住你的按键映射。
+按任意键，如 &lt;code>&amp;lt;space&amp;gt;&lt;/code>，你将看到一个包含所有以 &lt;code>&amp;lt;space&amp;gt;&lt;/code> 开始的按键映射的弹窗。&lt;/p>
+&lt;p>
+ &lt;img src="https://user-images.githubusercontent.com/292349/211862473-1ff5ee7a-3bb9-4782-a9f6-014f0e5d4474.png" alt="image" />&lt;/p>
+&lt;ul>
+&lt;li>默认的 &lt;code>&amp;lt;leader&amp;gt;&lt;/code> 键是 &lt;code>&amp;lt;space&amp;gt;&lt;/code>&lt;/li>
+&lt;li>默认的 &lt;code>&amp;lt;localleader&amp;gt;&lt;/code> 键是 &lt;code>\&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>模式&lt;/th>
+ &lt;th>描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>n&lt;/td>
+ &lt;td>Normal Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>v&lt;/td>
+ &lt;td>Visual Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>s&lt;/td>
+ &lt;td>Select Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>i&lt;/td>
+ &lt;td>Insert Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>c&lt;/td>
+ &lt;td>Command Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>x&lt;/td>
+ &lt;td>Ex Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>t&lt;/td>
+ &lt;td>Terminal Mode&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="通用的">
+ 通用的
+ &lt;a class="anchor" href="#%e9%80%9a%e7%94%a8%e7%9a%84">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>键&lt;/th>
+ &lt;th>描述&lt;/th>
+ &lt;th>模式&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-h&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>切换到左边窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-j&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>切换到下面窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-k&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>切换到上面窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-l&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>切换到右边窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-Up&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>增加窗口高度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-Down&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>降低窗口高度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-Left&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>降低窗口宽度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-Right&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>增加窗口宽度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;A-j&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>下移&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>i&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;A-k&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>上移&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>i&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;S-h&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;S-l&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->[b&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->]b&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;bb&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>切换到其他Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;`&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>切换到其他Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;esc&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>退出并清除搜索高亮&lt;/td>
+ &lt;td>&lt;strong>i&lt;/strong>, &lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ur&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>重绘/清除搜索高亮 / Diff Update&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个搜索结果&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>x&lt;/strong>, &lt;strong>o&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->N&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个搜索结果&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>x&lt;/strong>, &lt;strong>o&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-s&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>保存文件&lt;/td>
+ &lt;td>&lt;strong>i&lt;/strong>, &lt;strong>x&lt;/strong>, &lt;strong>n&lt;/strong>, &lt;strong>s&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;K&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Keywordprg&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;l&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>打开Lazy面板&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;fn&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>新建文件&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;xl&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Location列表&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;xq&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Quickfix列表&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->[q&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个Quickfix&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->]q&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个Quickfix&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;cf&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>格式化&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;cd&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Line Diagnostics&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->]d&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个Diagnostic&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->[d&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个Diagnostic&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->]e&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个Error&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->[e&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个Error&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->]w&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个Warning&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->[w&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个Warning&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;uf&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关自动格式化 (全局)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;uF&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关自动格式化 (Buffer)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;us&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关拼写&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;uw&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关折行&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;uL&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关相对行号&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ul&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关行号&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ud&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关Diagnostics&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;uc&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关Conceal&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;uh&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关Inlay Hints&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;uT&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关Treesitter Highlight&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ub&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>开关Background&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;gg&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Lazygit(根目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;gG&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Lazygit(当前目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;gb&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Git Blame Line&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;gf&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Lazygit当前文件历史&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;qq&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>全部退出&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ui&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Inspect Pos&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;L&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>LazyVim Changelog&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ft&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>终端(根目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;fT&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>终端(当前目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;c-/&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>终端(根目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;c-_&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>which_key_ignore&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;esc&amp;gt;&amp;lt;esc&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>进入普通模式&lt;/td>
+ &lt;td>&lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;C-/&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>隐藏终端&lt;/td>
+ &lt;td>&lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ww&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>切到另一个窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;wd&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>删除窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;w-&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>向下分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;w|&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>向右分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;-&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>向下分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;|&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>向右分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;l&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>最后一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;f&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>第一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;&amp;lt;tab&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>新建Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;]&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>后一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;d&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>关闭Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;[&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>前一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="lsp">
+ LSP
+ &lt;a class="anchor" href="#lsp">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>键&lt;/th>
+ &lt;th>描述&lt;/th>
+ &lt;th>模式&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;cl&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Lsp信息&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->gd&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>转到定义&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->gr&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>查找引用&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->gD&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>转到声明&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->gI&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>转到实现&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->gy&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>转到类型定义&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->K&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>悬停&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->gK&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>函数签名帮助&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;c-k&amp;gt;&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>函数签名帮助&lt;/td>
+ &lt;td>&lt;strong>i&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;ca&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>代码Action&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;cc&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>执行Codelens&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;cC&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>刷新并显示Codelens&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;cA&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>Source Action&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;!-- raw HTML omitted -->&amp;lt;leader&amp;gt;cr&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;td>重命名&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="bufferlinenvim">
+ bufferline.nvim
+ &lt;a class="anchor" href="#bufferlinenvim">#&lt;/a>
+&lt;/h2>
+&lt;p>
+ &lt;a href="https://github.com/akinsho/bufferline.nvim.git">bufferline.nvim&lt;/a>&lt;/p></description></item></channel></rss>
